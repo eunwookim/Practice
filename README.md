@@ -9,7 +9,7 @@
   
   *04 div,span,ul,il,li[code](04 div,span.html)
 ## CSS 기본 이해
-   * Project - 갤러리[이동](https://github.com/eunwookim.github.io/blob/Practice/css_practice/img_page.html)
+   * Project - 갤러리[이동](https://github.com/eunwookim/Practice/blob/main/css_practice/img_page.html)
    
 
 
