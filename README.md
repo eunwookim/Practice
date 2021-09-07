@@ -10,6 +10,9 @@
   *04 div,span,ul,il,li[code](04 div,span.html)
 ## CSS 기본 이해
    * Project - 갤러리[code](https://github.com/eunwookim/Practice/blob/main/css_practice/img_page.html)[이동](http://localhost:63342/pythonProject/06%20border_style.html?_ijt=jjn9g6qur6qhpsrmg74bog0vbq&_ij_reload=RELOAD_ON_SAVE)
+
+## 나의 웹페이지
+   * [code]https://eunwookim.github.io/Practice/css_practice/my_homepage.html[이동](GitHub/Practice/css_practice/my_homepage.html)
    
 
 
