@@ -13,6 +13,6 @@
 ## 나의 웹페이지
    * [이동](https://eunwookim.github.io/Practice/css_practice/my_homepage.html)[code](https://github.com/eunwookim/Practice/blob/main/css_practice/my_homepage.html)
 ## 스몰프로젝트
-   * [이동](https://eunwookim.github.io/Practice/
+   * [이동](https://eunwookim.github.io/Practice/web_html/0914 small_project.py)
 
 
