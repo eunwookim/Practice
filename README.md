@@ -12,6 +12,7 @@
    * Project - 갤러리[code](https://github.com/eunwookim/Practice/blob/main/css_practice/img_gallery.html)[이동](https://eunwookim.github.io/Practice/css_practice/img_gallery.html)
 ## 나의 웹페이지
    * [이동](https://eunwookim.github.io/Practice/css_practice/my_homepage.html)[code](https://github.com/eunwookim/Practice/blob/main/css_practice/my_homepage.html)
-   
+## 스몰프로젝트
+   * [이동](https://eunwookim.github.io/Practice/
 
 
