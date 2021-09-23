@@ -15,4 +15,5 @@
 ## 스몰프로젝트
    * [code](https://github.com/eunwookim/Practice/blob/main/web_html/0914%20small_project.py)
 
-
+## 나의 맛집리스트
+   * [code](https://github.com/eunwookim/Practice/blob/main/folium/food_list_map.html)[이동](https://eunwookim.github.io/Practice/blob/main/folium/food_list_map.html)
