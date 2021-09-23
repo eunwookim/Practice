@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_f86153e7bc5b4119a640b7e3235399d5 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_f86153e7bc5b4119a640b7e3235399d5" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_f86153e7bc5b4119a640b7e3235399d5 = L.map(
+        'map_f86153e7bc5b4119a640b7e3235399d5', {
+        center: [37.574408810509304, 126.86436780196871],
+        zoom: 17,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_03dbb166449f41518dabc658f5d046a9 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+    
+        var marker_9aef9fc21d9c4f7da81077b2a2674870 = L.marker(
+            [37.5452455404621, 127.06961037040352],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+        
+    
+
+                var icon_6408149933354fcf82e91ce9b69cecf7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9aef9fc21d9c4f7da81077b2a2674870.setIcon(icon_6408149933354fcf82e91ce9b69cecf7);
+            
+    
+            var popup_58e5fcbed98e46b89ece523707dd1591 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a9b001955ac54c76989b61db5333e04b = $(`<div id="html_a9b001955ac54c76989b61db5333e04b" style="width: 100.0%; height: 100.0%;">만만코로로</div>`)[0];
+                popup_58e5fcbed98e46b89ece523707dd1591.setContent(html_a9b001955ac54c76989b61db5333e04b);
+            
+
+            marker_9aef9fc21d9c4f7da81077b2a2674870.bindPopup(popup_58e5fcbed98e46b89ece523707dd1591)
+            ;
+
+            
+        
+    
+        var marker_0e8c7b7b9c1a4112a4805c0f066591a4 = L.marker(
+            [37.65493987902085, 127.06101074001977],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+        
+    
+
+                var icon_f660743c9df14be49c1bee28325cc459 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0e8c7b7b9c1a4112a4805c0f066591a4.setIcon(icon_f660743c9df14be49c1bee28325cc459);
+            
+    
+            var popup_4c05db6066fc44dfb4f8aa4504d79139 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c0391f0d52542c6ba8b9f4da10a0e05 = $(`<div id="html_0c0391f0d52542c6ba8b9f4da10a0e05" style="width: 100.0%; height: 100.0%;">노원롯데시네마</div>`)[0];
+                popup_4c05db6066fc44dfb4f8aa4504d79139.setContent(html_0c0391f0d52542c6ba8b9f4da10a0e05);
+            
+
+            marker_0e8c7b7b9c1a4112a4805c0f066591a4.bindPopup(popup_4c05db6066fc44dfb4f8aa4504d79139)
+            ;
+
+            
+        
+    
+        var marker_d3989e1b5187405fa997553e8b5e2e07 = L.marker(
+            [37.53704123855482, 127.0775593579127],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+        
+    
+
+                var icon_33a78c6f29de4733b580243764b12892 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d3989e1b5187405fa997553e8b5e2e07.setIcon(icon_33a78c6f29de4733b580243764b12892);
+            
+    
+            var popup_d8284a6836ed44bd8dc711adbc785413 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2993ffc54d7345b5902e830a7f3f5c9f = $(`<div id="html_2993ffc54d7345b5902e830a7f3f5c9f" style="width: 100.0%; height: 100.0%;">아뜰리에윈드플라워(향초공방)</div>`)[0];
+                popup_d8284a6836ed44bd8dc711adbc785413.setContent(html_2993ffc54d7345b5902e830a7f3f5c9f);
+            
+
+            marker_d3989e1b5187405fa997553e8b5e2e07.bindPopup(popup_d8284a6836ed44bd8dc711adbc785413)
+            ;
+
+            
+        
+    
+        var marker_6ed8da04ec8b410a96368a7bc8d5793a = L.marker(
+            [37.473644886482106, 126.62057021763981],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+        
+    
+
+                var icon_e9585a80e472476a8021b79a34215671 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'white',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ed8da04ec8b410a96368a7bc8d5793a.setIcon(icon_e9585a80e472476a8021b79a34215671);
+            
+    
+            var popup_674544603380451eae2fd5d18e23a32a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2921e4192d6471d87e203b2b296e70a = $(`<div id="html_e2921e4192d6471d87e203b2b296e70a" style="width: 100.0%; height: 100.0%;">차이나타운_사진관</div>`)[0];
+                popup_674544603380451eae2fd5d18e23a32a.setContent(html_e2921e4192d6471d87e203b2b296e70a);
+            
+
+            marker_6ed8da04ec8b410a96368a7bc8d5793a.bindPopup(popup_674544603380451eae2fd5d18e23a32a)
+            ;
+
+            
+        
+    
+        var marker_028ca359a6584ad78046a3c44ab35cdd = L.marker(
+            [37.55945759948964, 127.0398073246734],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_f86153e7bc5b4119a640b7e3235399d5);
+        
+    
+
+                var icon_bfe9f659ca00450d9c72e59bf8884f65 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_028ca359a6584ad78046a3c44ab35cdd.setIcon(icon_bfe9f659ca00450d9c72e59bf8884f65);
+            
+    
+            var popup_8298934bb49e4ba3a0f6f0699fa0fc89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_765cb8158b864f9cac0a4993ebce0817 = $(`<div id="html_765cb8158b864f9cac0a4993ebce0817" style="width: 100.0%; height: 100.0%;">방탈출</div>`)[0];
+                popup_8298934bb49e4ba3a0f6f0699fa0fc89.setContent(html_765cb8158b864f9cac0a4993ebce0817);
+            
+
+            marker_028ca359a6584ad78046a3c44ab35cdd.bindPopup(popup_8298934bb49e4ba3a0f6f0699fa0fc89)
+            ;
+
+            
+        
+</script>
